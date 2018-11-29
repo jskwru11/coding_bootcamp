@@ -1,0 +1,51 @@
+
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+#big {
+    font-size: 3em;
+}
+
+#tiny {
+    font-size: 0.5em;
+}
+
+#centered {
+    text-align: center;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#newFont {
+    font-family: cursive;
+}
+
+#combined {
+    color: orange;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.styledFont {
+    font-family: fantasy;
+    color: dodgerblue;
+    font-style: italic;
+}
+
+#styledImage {
+    padding: 10px;
+    border: 10px solid gold;
+
+}
