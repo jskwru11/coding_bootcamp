@@ -1,0 +1,17 @@
+.content-size {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper-for-name {
+    background-color: red;
+    width: 400px;
+    text-align: center;
+}
+
+.name {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 20px;
+}
