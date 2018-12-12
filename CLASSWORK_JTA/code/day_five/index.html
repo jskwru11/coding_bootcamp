@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Typography</title>
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Roboto|Unlock" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="header-1">Stuff I think about</h1>
+
+        <p class="pstyle-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium fuga amet delectus consequuntur eveniet voluptates in adipisci, sequi explicabo pariatur quisquam soluta neque mollitia consequatur veritatis. Dolorum, beatae error.</p>
+
+        <p class="pstyle-serif">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus veritatis, quisquam cupiditate quidem eveniet corrupti mollitia consequatur assumenda alias, qui id molestiae cumque recusandae! Natus, et. Eligendi voluptatum fugiat blanditiis.
+        </p>
+
+        <button class="btn btn-primary">Click to Change</button>
+    </div>
+    <script>
+        $(document).ready(() => {
+            $(".btn").click(() => {
+                $("p").toggleClass("pstyle-google");
+                $(".btn").fadeOut(4000, () => {
+                    $(".header-1").html("This is a new header now!");
+                });
+            })
+
+            
+        })
+    </script>
+</body>
+</html>
